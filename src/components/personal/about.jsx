@@ -11,10 +11,10 @@ export default function About() {
       </h1>
       <p className={styles.paragraph}>
         <br />
-        I am currently a second-year UC Davis student majoring in Mechanical Engineering.
-        However, I am in the process of switching my major to Computer Science. A little bit
-        about me other than school is that I am really passionate about learning new skills.
-        Currently, I'm fostering a hobby to learn more coding languages to better aid my
+        <br></br>I am currently a second-year UC Davis student majoring in Mechanical Engineering.
+        However,<br></br> I am in the process of switching my major to Computer Science. A little bit
+        about me other than<br></br> school is that I am really passionate about learning new skills.
+        Currently, I'm fostering a hobby<br></br> to learn more coding languages to better aid my
         coding journey down the line.
       </p>
       <div className={styles.image}>

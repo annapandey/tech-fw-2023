@@ -1,4 +1,6 @@
 // import styles from styling folder!
+import React from 'react';
+import styles from '@/styles/components/personal/skillset.module.scss';
 
 /* Think about what you want to include for skills
     1. Some ideas might be coding languages, frameworks, libraries, etc
@@ -7,5 +9,8 @@
 */
 
 export default function Skills() {
+  <div classname={styles.box}>
+    Skill Set
+  </div>
   return <section className={styles.skills}>skills</section>;
 }
