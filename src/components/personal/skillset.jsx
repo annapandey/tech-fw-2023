@@ -9,8 +9,11 @@ import styles from '@/styles/components/personal/skillset.module.scss';
 */
 
 export default function Skills() {
-  <div classname={styles.box}>
+
+  return <section className={styles.skills}>
+    <div classname={styles.box}>
     Skill Set
   </div>
-  return <section className={styles.skills}>skills</section>;
+  </section>;
+
 }
